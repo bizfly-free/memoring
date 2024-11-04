@@ -1,0 +1,32 @@
+{
+  "name": "lambda-typescript",
+  "version": "0.0.1",
+  "description": "Memoring project serverless",
+  "main": "handler.js",
+  "scripts": {
+    "build": "serverless package",
+    "deploy": "serverless deploy",
+    "deploy:init": "serverless create_domain",
+    "start": "serverless offline start"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "serverless",
+    "typescript"
+  ],
+  "author": "Jinhyeok, Lee",
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.145",
+    "@types/node": "^20",
+    "@types/request": "2.48.12",
+    "aws-sdk": "^2.1691.0",
+    "serverless-aws-documentation": "^1.1.0",
+    "serverless-domain-manager": "^7.4.0",
+    "serverless-offline": "^13.8.0",
+    "serverless-plugin-typescript": "^2.1.5",
+    "serverless-stack-output": "^0.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "5.3.3"
+  }
+}
