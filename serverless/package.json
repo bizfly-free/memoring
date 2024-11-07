@@ -1,6 +1,7 @@
 {
   "name": "lambda-typescript",
   "version": "0.0.1",
+  "license": "ISC",
   "description": "Memoring project serverless",
   "main": "handler.js",
   "scripts": {

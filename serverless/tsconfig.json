@@ -15,7 +15,12 @@
     "preserveConstEnums": true,
     "suppressImplicitAnyIndexErrors": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"],
+      "@shared/interfaces/*": ["../lib/interfaces/*"],
+    },
+    "typeRoots": ["./node_modules/@types", "../lib/interfaces"]
   },
   "exclude": ["node_modules"],
 }
